@@ -11,9 +11,13 @@ To interpret the file in examples/comp, run `./gramlang examples/comp`.
 ## Compilation
 You need to have cmake to compile gramlang. Or just G++ if you don't want an automated build process, it's just personal preference.
 
-To build using cmake, enter the gramlang directory and run:
+To build using cmake, enter the gramlang directory and run the build script:
 ```console
-cmake -Bbuild && cd build && make && mv gramlang .. && cd ..
+./build.sh
+```
+Then, optionally, run the cleanup script:
+```console
+./clean.sh
 ```
 
 ## What to do with the language
