@@ -1,7 +1,7 @@
 # Grammmatical Language
 A grammatical programming language written in C++.
 <!-- I didn't speell that right, did I? -->
-[Gitlab (gramlang)](https://gitlab.com/gramlang/gramlang-cpp)
+[GitLab (gramlang)](https://gitlab.com/gramlang/gramlang-cpp)
 
 ## Usage
 There isn't a shell for this version, but there is for the [bash version](https://github.com/aarikpokras/gramlang-bash).
