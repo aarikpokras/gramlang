@@ -1,0 +1,19 @@
+say hi there
+say Adding 2+4
+add 2 4
+new line
+say Subtracting 1-8
+subtract 1 8
+new line
+say Dividing 20/8
+divide 20 8
+new line
+read examples/example.txt
+say Pausing for 2
+pause for 2
+new line
+new line
+new line
+ask What's your name? 
+say with color red hi
+say with color orange hi
