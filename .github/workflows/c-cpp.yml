@@ -17,3 +17,8 @@ jobs:
       run: ./build.sh
     - name: clean
       run: ./clean.sh
+    - name: Upload
+      uses: actions/upload-artifact@v2
+      with:
+        name: compiled
+        path: gramlang
