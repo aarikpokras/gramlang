@@ -11,6 +11,8 @@ if [ -z "$1" ]; then
       rm -rf *.cpp
       rm -rf README.md
       rm -rf *.txt
+      rm -rf build.sh
+      rm -rf LICENSE
       rm -rf clean.sh
       exit 0
     else
@@ -35,6 +37,10 @@ else
     rm -rf README.md
     echo Removing txt files.
     rm -rf *.txt
+    echo Removing LICENSE.
+    rm -rf LICENSE
+    echo Removing build.sh
+    rm -rf build.sh
     echo Removing myself.
     rm -rf clean.sh
     printf "\x6F\x68\x2C\x20\x77\x68\x61\x74\x20\x61\x20\x77\x6F\x72\x6C\x64\x2C\x20\x77\x68\x61\x74\x20\x61\x20\x77\x6F\x72\x6C\x64\x21\n"
