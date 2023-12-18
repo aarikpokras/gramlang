@@ -12,6 +12,7 @@
 #include "include/file.h"
 #include "include/sleep.h"
 #include "include/fline.h"
+#include "include/llof.h"
 
 using namespace std;
 
@@ -43,6 +44,9 @@ int main(int argc, char* argv[]) {
       } else if (regex_search(line, flo)) {
         string fileTGO = regex_replace(line, flo, "");
         getfirstline(fileTGO);
+      } else if (regex_search(line, llo)) {
+        string fileGLO = regex_replace(line, llo, "");
+        llof(fileGLO);
       } else if (regex_search(line, saywc)) {
         string topr = regex_replace(line, saywc, "");
         regex red("red ");

@@ -19,3 +19,4 @@ get the first line of gram.out
 say with color red hi
 say with color orange hi
 get the first line of main.cpp
+get the last line of main.cpp
