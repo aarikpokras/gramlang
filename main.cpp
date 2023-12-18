@@ -11,6 +11,7 @@
 #include "include/askf.h"
 #include "include/file.h"
 #include "include/sleep.h"
+#include "include/fline.h"
 
 using namespace std;
 
@@ -33,10 +34,15 @@ int main(int argc, char* argv[]) {
       regex read("read ");
       regex ask("ask ");
       regex saywc("say with color ");
+      regex llo("get the last line of ");
+      regex flo("get the first line of ");
 
       if (regex_search(line, saywo)) {
         string saywores = regex_replace(line, saywo, "");
         saywof(saywores);
+      } else if (regex_search(line, flo)) {
+        string fileTGO = regex_replace(line, flo, "");
+        getfirstline(fileTGO);
       } else if (regex_search(line, saywc)) {
         string topr = regex_replace(line, saywc, "");
         regex red("red ");
