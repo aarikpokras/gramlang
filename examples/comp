@@ -15,5 +15,7 @@ new line
 new line
 new line
 ask What's your name? 
+get the first line of gram.out
 say with color red hi
 say with color orange hi
+get the first line of main.cpp
