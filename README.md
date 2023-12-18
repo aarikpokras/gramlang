@@ -9,6 +9,7 @@ There isn't a shell for this version, but there is for the [bash version](https:
 To interpret the file in examples/comp, run `./gramlang examples/comp`.
 
 ## Compilation
+### Manual or with the build script
 You need to have cmake to compile gramlang. Or just G++ if you don't want an automated build process, it's just personal preference.
 
 To build using cmake, enter the gramlang directory and run the build script:
@@ -19,6 +20,8 @@ Then, optionally, run the cleanup script:
 ```console
 ./clean.sh
 ```
+### CI
+Get the latest build from the [actions page](https://github.com/aarikpokras/gramlang/actions). It has Ubuntu latest and macOS latest.
 
 ## What to do with the language
 It's not super advanced, so there's not much you can do with it.
