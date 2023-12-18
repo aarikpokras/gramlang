@@ -37,18 +37,3 @@ jobs:
       with:
         name: macOS
         path: gramlang
-  macOS-11_7_3:
-
-    runs-on: macos-11.7.3
-
-    steps:
-    - uses: actions/checkout@v3
-    - name: compile
-      run: ./build.sh
-    - name: clean
-      run: ./clean.sh
-    - name: Upload
-      uses: actions/upload-artifact@v2
-      with:
-        name: macOS-11.7.3
-        path: gramlang
