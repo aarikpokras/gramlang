@@ -23,6 +23,7 @@ Then, optionally, run the cleanup script:
 ## What to do with the language
 It's not super advanced, so there's not much you can do with it.
 
+Check out [this file](https://github.com/aarikpokras/gramlang/blob/master/examples/comp) with all of the available functions in it.
 ```
 say Message
 pause for 5
