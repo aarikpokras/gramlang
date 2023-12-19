@@ -1,7 +1,6 @@
 # Grammmatical Language
 [![Build Status](https://img.shields.io/github/actions/workflow/status/aarikpokras/gramlang/c-cpp.yml?logo=github)](https://github.com/aarikpokras/gramlang/actions) ![MIT License](https://img.shields.io/github/license/aarikpokras/gramlang) ![Downloads](https://img.shields.io/github/downloads/aarikpokras/gramlang/total.svg)
 
-
 A grammatical programming language written in C++.
 <!-- I didn't speell that right, did I? -->
 [GitLab (gramlang)](https://gitlab.com/gramlang/gramlang-cpp)
