@@ -1,4 +1,4 @@
-# Grammmatical Language
+# Grammatical Language
 [![Build Status](https://img.shields.io/github/actions/workflow/status/aarikpokras/gramlang/c-cpp.yml?logo=github)](https://github.com/aarikpokras/gramlang/actions) ![MIT License](https://img.shields.io/github/license/aarikpokras/gramlang) ![Code Size](https://img.shields.io/github/languages/code-size/aarikpokras/gramlang)
 
 
