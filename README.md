@@ -1,4 +1,6 @@
 # Grammmatical Language
+![Build Status](https://img.shields.io/github/actions/workflow/status/aarikpokras/gramlang/c-cpp.yml?logo=github)
+
 A grammatical programming language written in C++.
 <!-- I didn't speell that right, did I? -->
 [GitLab (gramlang)](https://gitlab.com/gramlang/gramlang-cpp)
