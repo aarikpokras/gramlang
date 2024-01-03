@@ -13,6 +13,7 @@
 #include "include/sleep.h"
 #include "include/fline.h"
 #include "include/llof.h"
+#include "include/getui.h"
 
 using namespace std;
 
@@ -41,6 +42,8 @@ int main(int argc, char* argv[]) {
       if (regex_search(line, saywo)) {
         string saywores = regex_replace(line, saywo, "");
         saywof(saywores);
+      } else if (line == "get last user input") {
+        getin();
       } else if (regex_search(line, flo)) {
         string fileTGO = regex_replace(line, flo, "");
         getfirstline(fileTGO);
