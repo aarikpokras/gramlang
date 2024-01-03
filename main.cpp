@@ -14,7 +14,6 @@
 #include "include/fline.h"
 #include "include/llof.h"
 #include "include/getui.h"
-
 using namespace std;
 
 int main(int argc, char* argv[]) {
